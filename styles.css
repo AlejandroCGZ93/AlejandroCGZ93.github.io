@@ -1,0 +1,126 @@
+*{
+    background-color: #E5E5E5;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.inputTexto, .placerholder{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border-radius: 10px;
+    color: #0A3871;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+
+}
+
+.bonotes, .encriptar{
+    background: #0A3871;
+    border-radius: 24px;
+    width: 200px;
+    height: 50px;
+    color: #FFFFFF;
+}
+
+.bonotes, .desencriptar{
+    background: #D8DFE8;
+    border-radius: 24px;
+    width: 200px;
+    height: 50px;
+    color: #0A3871;
+
+}
+
+.resultadoBox{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 900px;
+    top: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    background-image: "Imagenes/Muñeco.png";
+    
+}
+
+.imagenMuñeco{
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    background: #FFFFFF;
+}
+
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    background-color: #E5E5E5;
+    position: relative;
+    width: 336px;
+    height: 122px;
+    left: 930px;
+    top: 619px;
+    border-radius: 10px;
+}
+
+.minusculas{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    font-size: 10px;
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+       
+}
